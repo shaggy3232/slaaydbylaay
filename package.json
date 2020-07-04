@@ -1,0 +1,26 @@
+{
+  "name": "slaaydbylaay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaggy3232/slaaydbylaay.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Shaggy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaggy3232/slaaydbylaay/issues"
+  },
+  "homepage": "https://github.com/shaggy3232/slaaydbylaay#readme",
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
