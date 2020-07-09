@@ -53,7 +53,8 @@ render(){
         centerPadding: "60px",
         slidesToShow: 1,
         slidesToScrool: 1 ,
-        speed: 500
+        speed: 500,
+        arrows: false
         
     }
 

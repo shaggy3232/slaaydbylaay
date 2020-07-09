@@ -27,6 +27,14 @@ background-color: rgb(255,245,238);
 
 width: 100%;
 }
+
+.Gallery{
+
+  padding: 10px;
+  background-color: rgb(255,245,238);
+
+}
+
 .Prices{
     margin: 20px;
     padding:50px;
@@ -42,9 +50,12 @@ width: 100%;
 
 
 .slides {
-  width: 50%;
-  text-align: center;
-  display: inline-block;
+
+    height: 30%;
+    width: 80%;
+
+  
+  
   
 }
 
