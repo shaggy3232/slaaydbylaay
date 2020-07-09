@@ -1,16 +1,19 @@
 const path = require('path');
 const express = require('express');
 const bodyparser = require ('body-parser')
-
+const nodemailer = require('nodemailer')
 const ENV = process.env.NODE_ENV;
 const PORT = process.env.PORT || 5000;
-
+require('dotenv').config();
 
 
 const app = express();
 app.use (express.json());
 app.use (express.urlencoded({extended:false}));
 app.use (bodyparser.json());
+
+
+
 app.listen(PORT, ()=> {
     console.log(`server listening on port ${PORT}`)
 })
