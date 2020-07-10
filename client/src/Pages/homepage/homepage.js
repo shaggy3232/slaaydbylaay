@@ -104,7 +104,7 @@ render(){
                                 <td>Classic</td>
                                 <td>90</td>
                                 <td>40</td>
-                                <td>2 hours and 30 minutes</td>
+                                <td>2 hours and 3 minutes</td>
                                 </tr>
                                 <tr>
                                 <td>Hybrid</td>
