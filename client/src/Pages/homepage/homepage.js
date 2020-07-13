@@ -65,24 +65,24 @@ render(){
             <div>
                 <Container className = "Container">
                 
-                    <Row>
+                  
                         <div className = "Book-appointment">
                         <h3>Looking good shouldn't be a chore. I can make it easy</h3>
                   
-                        <Row>
+                   
                         <img className ="image" src ={require( "../../Assets/IMG_6892.PNG")}/>
                         <img className ="image" src ={require( "../../Assets/IMG_7069.jpg")}/>
                         <img className ="image" src ={require( "../../Assets/IMG_7667.jpg")}/>
                         <img className ="image" src ={require( "../../Assets/IMG_7658.JPG")}/>
-                        </Row>
-                        {/* <Button onClick={this.togglePopup.bind(this)}>Book an Appointment</Button>
+                      
+                         {/* <Button onClick={this.togglePopup.bind(this)}>Book an Appointment</Button>
                                                 {this.state.showPopup ?  
                         <Popup  
                                 text='Send an email if you have any Questions'  
                                 closePopup={this.togglePopup.bind(this)}  
                         />  
                         : null  
-                        } */}
+                        }  */}
 
                         </div>
                   
@@ -192,7 +192,7 @@ render(){
                             </tbody>
                             </Table>
 
-                            <h3>Styled Briades</h3>
+                            <h3>Styled Braides</h3>
                             <Table responsive>
                             <thead>
                                 <tr>
@@ -251,7 +251,7 @@ render(){
                         </div>
                   
                        
-                    </Row>
+                  
                 </Container>
             </div>
         </div>
