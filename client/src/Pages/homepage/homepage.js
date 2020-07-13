@@ -249,6 +249,13 @@ render(){
                      </Slider>
 
                         </div>
+
+                        <div className = "About-Me">
+                        
+                        <Row style={{padding: "20px"}}><h3 >“Beauty is a lifestyle and just like any other, it requires maintenance.”</h3><p>My name is Laay. I currently obtain an Honors Bachelors of Arts with a  Major in French As Second Language and a Minor in Criminology. I am a 23 year old entrepreneur who has a passion for aesthetics. Of course, aesthetics was not always my passion, but client satisfaction has always been the greatest feeling for me working in the customer service industry. By taking my customer service skills to the next level, I was able to start a business that caters to not only satisfying my client’s needs, but creating a safe space  where clients can feel comfortable enhancing their natural features and leave with more confidence and self-esteem than they came with.</p></Row><img className ="image" src ={require( "../../Assets/AboutMePortrait.jpg")}/>
+                       
+                     
+                        </div>
                   
                        
                   
