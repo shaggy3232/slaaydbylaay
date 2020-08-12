@@ -1,5 +1,5 @@
 
 module.exports = {
 
-mongoURI =  'mongodb+srv://shaggy:shaggy@slaaydbylaay.gcce7.mongodb.net/sample_airbnb?retryWrites=true&w=majority'
+//  mongoURI =  'mongodb+srv://shaggy:Shaggy@slaaydbylaay.gcce7.mongodb.net/test?retryWrites=true&w=majority'
 }

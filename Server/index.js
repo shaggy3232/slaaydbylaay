@@ -1,28 +1,37 @@
-const path = require('path');
+
 const express = require('express');
-const mongoose = require ('mongoose')
-const bodyparser = require ('body-parser')
-const nodemailer = require('nodemailer')
-const ENV = process.env.NODE_ENV;
+const mongoose = require ('mongoose');
+
+
 
 require('dotenv').config();
 
 const db = require('./config/keys').mongoURI
+const URI =  'mongodb+srv://shaggy:Shaggy@slaaydbylaay.gcce7.mongodb.net/test?retryWrites=true&w=majority'
 
 
-mongoose
-.connect(db, {
-    useNewUrlParser :true
+mongoose.connect(URI, { useNewUrlParser:true, useCreateIndex:true})
+
+const connection = mongoose.connection;
+connection.once ('open' , ()=> {
+    console.log(' MongoDB connection established succesfully')
 })
-.then( () => console.log('database connected'))
-.catch( err => console.log(err));
 
 const app = express();
 app.use (express.json());
 app.use (express.urlencoded({extended:false}));
-app.use (bodyparser.json());
+
 
 const PORT = process.env.PORT || 5000;
+
+const briadsRouter = require('./routes/braids')
+const LashesRouter = require('./routes/Lashes')
+const SinglebraidsRouter = require('./routes/Singlebraids')
+
+app.use('/braids',briadsRouter)
+app.use('/Lashes', LashesRouter)
+app.use('/Singlebraids', SinglebraidsRouter)
+
 
 app.listen(PORT, ()=> {
     console.log(`server listening on port ${PORT}`)
