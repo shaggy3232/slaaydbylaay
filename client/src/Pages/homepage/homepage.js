@@ -102,7 +102,7 @@ render(){
                             <tbody>
                                 <tr>
                                 <td>Classic</td>
-                                <td>90</td>
+                                <td>110</td>
                                 <td>40</td>
                                 <td>2 hours and 30 minutes</td>
                                 </tr>

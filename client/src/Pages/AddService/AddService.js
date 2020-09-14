@@ -10,11 +10,11 @@ export default class AddService extends Component{
 
         this.state= {
             Service: ' ',
-            Style: " ",
-            Price: " ",
-            Time: " ",
-            Refill: " ",
-            Length: " ",
+            Style: "Style",
+            Price: "Price",
+            Time: "Time",
+            Refill: "Refill",
+            Length: "Length",
             Lashes: [],
             Braids: [],
             SingleBraids: []
@@ -63,38 +63,9 @@ export default class AddService extends Component{
     
 
     render(){
-        let form;
-        let Style = this.state.Service
-
-        if (Style == "Lashes"){
-            form = 
-                <form id="myForm" name="myForm" className ="center">
-                <div>
-                   
-                    <input className ="StyleEdit" type="text" id="Style" name="Style" onChange = {this.handleSetStyle} value = {this.state.Style}/>
-                    <input className ="PriceEdit" type="text" id="Price" name="Price" onChange = {this.handleSetPrice} value = {this.state.Price}/>
-                    <input className ="TimeEdit" type="text" id="Time" name= "Time" onChange = {this.handleSetTime} value = {this.state.Time}/>
-                    <input className ="RefillEdit" type="text" id="Refill" name="Refill" onChange = {this.handleSetRefill} value = {this.state.Refill}/>
-                </div>
-                
-            </form>
-            
-        }
-
-        if (this.state.Style == "Singlebraids"){
-            form = 
-                <form id="myForm" name="myForm" className ="center">
-                <div>
-                   
-                    <input className ="StyleEdit" type="text" id="Style" name="Style" onChange = {this.handleSetStyle} value = {this.state.Style}/>
-                    <input className ="PriceEdit" type="text" id="Price" name="Price" onChange = {this.handleSetPrice} value = {this.state.Price}/>
-                    <input className ="TimeEdit" type="text" id="Time" name= "Time" onChange = {this.handleSetTime} value = {this.state.Time}/>
-                    <input className ="LengthEdit" type="text" id="Length" name="Length" onChange = {this.handleSetLength} value = {this.state.Length}/>
-                </div>
-                
-            </form>
-            
-        }
+       
+           
+        
 
         return(
             <div>
@@ -108,7 +79,15 @@ export default class AddService extends Component{
                     {<option value = "Singlebraids">SingleBraids</option>}
                     {<option value = "braids">Braids</option>}
                     </Input>
-                    {form}
+                <form id="myForm" name="myForm" >   
+                <div>
+                   
+                   <input className ="StyleEdit" type="text" id="Style" name="Style" onChange = {this.handleSetStyle} value = {this.state.Style}/>
+                   <input className ="PriceEdit" type="text" id="Price" name="Price" onChange = {this.handleSetPrice} value = {this.state.Price}/>
+                   <input className ="TimeEdit" type="text" id="Time" name= "Time" onChange = {this.handleSetTime} value = {this.state.Time}/>
+                   <input className ="LengthEdit" type="text" id="Length" name="Length" onChange = {this.handleSetLength} value = {this.state.Length}/>
+               </div>
+               </form> 
 
 
             </div>
