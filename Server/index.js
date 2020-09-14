@@ -7,10 +7,10 @@ const mongoose = require ('mongoose');
 require('dotenv').config();
 
 const db = require('./config/keys').mongoURI
-const URI =  'mongodb+srv://shaggy:Shaggy@slaaydbylaay.gcce7.mongodb.net/test?retryWrites=true&w=majority'
+const URI =  'mongodb+srv://shaggy:Shaggy@slaaydbylaay.gcce7.mongodb.net/Services?retryWrites=true&w=majority'
 
 
-mongoose.connect(URI, { useNewUrlParser:true, useCreateIndex:true})
+mongoose.connect(URI, { useNewUrlParser:true, useCreateIndex:true, useUnifiedTopology: true})
 
 const connection = mongoose.connection;
 connection.once ('open' , ()=> {

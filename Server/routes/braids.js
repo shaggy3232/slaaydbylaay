@@ -8,10 +8,23 @@ router.route('/').get((req,res) => {
         .catch(err => res.status(400).json('Error: ' + err));
 });
 
+router.route('/:id').get((req,res) => {
+    Braids.findById(req.params.id)
+        .then(braids => res.json(braids))
+        .catch(err => res.status(400).json('Error: ' + err));
+});
+
+router.route('/:id').delete((req, res ) => {
+    Braids.findByIdAndDelete(req.params.id)
+    .then(() => res.json('Braids deleted.'))
+    .catch(err => res.status(400).json('Error: ' + err));
+
+});
+
 router.route('/add').post((req,res) => {
     const Style = req.body.Style;
-    const Price = req.body.Price;
-    const Time = req.body.Time;
+    const Price = Number(req.body.Price);
+    const Time = Number(req.body.Time);
 
 
     const newBriads = new Braids({Style,Price,Time});
@@ -21,6 +34,22 @@ router.route('/add').post((req,res) => {
         .then(() => res.json('New Braid Added'))
         .catch(err => res.status(400).json('Error: ' + err))
 
+})
+
+router.route('/update/:id').post((req , res) => {
+
+    Braids.findById(req.params.id)
+        .then( braids => {
+        braids.Style = req.body.Style;
+        braids.Price = Number(req.body.Price);
+        braids.Time = Number(req.body.Time);
+      
+        
+        braids.save()
+        .then(() => res.json('Braids have been updated'))
+        .catch(err => res.status(400).json('Error: '+ err))
+        })
+   
 })
 
 module.exports =router;

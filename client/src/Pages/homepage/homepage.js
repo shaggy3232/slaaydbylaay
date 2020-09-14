@@ -4,7 +4,7 @@ import "./homepage.css"
 import Example from "../../Components/NavBar/navbar"
 import { Container, Row, Button,Table} from 'reactstrap'
 import background from "../../Assets/background.jpg"
-import Popup from "../../Components/Pop-up/Pop-up"
+
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick"

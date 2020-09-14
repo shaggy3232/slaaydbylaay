@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import "./Admindash.css";
-import firebase from 'firebase'
+
 
 import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth'
 import {Link, Redirect} from 'react-router-dom'
@@ -19,9 +19,6 @@ import {
     
 } from 'reactstrap';
 
-
-
-
 class AdminDash extends Component{
     
     
@@ -35,50 +32,23 @@ class AdminDash extends Component{
         }
     }
     
-  
-
-
-    
-
-   
-
-
-
-
-
- 
-
- 
-  
-
-
-
-
-
 
     componentDidMount = () => {
      
     }
   
-
-
     render(){
    
 
         return(
                 <Container>
                     <div>
+                        <Button><Link to="/AddService"> AddService</Link></Button>
+                        <Button><Link to = "/EditService">Edit Service</Link></Button>
 
             
 
                     </div>
-
-
-
-
-
-
-
                 </Container>
                             
         );

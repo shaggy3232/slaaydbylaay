@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 
 const SinglebraidsSchema = new Schema({
     Style:{type: String, required: true},
-    length:{type: String, required:true },
+    Length:{type: String, required:true },
     Price:{type: Number, required: true},
     Time :{type: Number, requred: true}
 
