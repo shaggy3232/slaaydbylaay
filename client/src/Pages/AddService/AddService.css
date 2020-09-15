@@ -1,0 +1,36 @@
+.StyleEdit{
+    
+    padding: 10px;
+    border: 2px solid gray;
+    margin-left:20px;
+    align-self: center;
+    width: 251px;
+    
+}
+.PriceEdit{
+    
+    padding: 10px;
+    border: 2px solid gray;
+    margin-left:20px;
+    align-self: center;
+    width: 251px;
+    
+}
+.TimeEdit{
+    
+    padding: 10px;
+    border: 2px solid gray;
+    margin-left:20px;
+    align-self: center;
+    width: 251px;
+    
+}
+.LengthEdit{
+    
+    padding: 10px;
+    border: 2px solid gray;
+    margin-left:20px;
+    align-self: center;
+    width: 251px;
+    
+}
