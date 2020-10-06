@@ -67,7 +67,7 @@ render(){
                 
                   
                         <div className = "Book-appointment">
-                        <h3>Looking good shouldn't be a chore. I can make it easy</h3>
+                        <h3>Looking good shouldn't be a chore. I can make it easy.</h3>
                   
                    
                         <img className ="image" src ={require( "../../Assets/IMG_6892.PNG")}/>
@@ -149,91 +149,259 @@ render(){
                                 
                             </tbody>
                             </Table>
-                            <h3>Single Braides</h3>
+
+                            <h3>Dreades</h3>
+                            <Table responsive>
+                            <thead>
+                                <tr>
+                                <th>Service</th>
+                                <th>Price($)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                <td>Retwist</td>
+                                <td>60</td>
+                                </tr>
+                                <tr>
+                                <td>Retwist and Style</td>
+                                <td>80</td>
+                                </tr>
+                                <tr>
+                                <td>Interlock</td>
+                                <td>80</td>
+                                </tr>
+
+                                <tr>
+                                <td>Interlock and Style</td>
+                                <td>110</td>
+                                </tr>
+
+                                <tr>
+                                <td>Any Style</td>
+                                <td>50</td>
+                                </tr>
+
+                                <tr>
+                                <td>Small starter locs coils</td>
+                                <td>150</td>
+                                </tr>
+
+                                <tr>
+                                <td>Medium starter locs coils</td>
+                                <td>120</td>
+                                </tr>
+
+                                <tr>
+                                <td>Large starter locs coils</td>
+                                <td>100</td>
+                                </tr>
+
+                                <tr>
+                                <td>Small starter insta-loc</td>
+                                <td>200</td>
+                                </tr>
+
+                                <tr>
+                                <td>Medium starter insta-loc</td>
+                                <td>170</td>
+                                </tr>
+
+                                <tr>
+                                <td>Large starter insta-loc</td>
+                                <td>150</td>
+                                </tr>
+
+                                <tr>
+                                <td>Wash</td>
+                                <td>20</td>
+                                </tr>
+
+                                <tr>
+                                <td>Detox</td>
+                                <td>50</td>
+                                </tr>
+
+                                <tr>
+                                <td>Deep condition</td>
+                                <td>40</td>
+                                </tr>
+
+                                <tr>
+                                <td>Reloc and pick</td>
+                                <td>60</td>
+                                </tr>
+
+
+                                
+                                
+                            </tbody>
+                            </Table>
+                        
+                            <h3>Knotless individuals Braides</h3>
                             <Table responsive>
                             <thead>
                                 <tr>
                                 <th>Size</th>
                                 <th>Shoulder length</th>
                                 <th>Mid-Back</th>
-                                <th>Lower back</th>
-                                <th>Below the waist</th>
+                                <th>Waistlength</th>
+                                
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                 <td>Small</td>
-                                <td>$100</td>
-                                <td>$130</td>
-                                <td>$150</td>
-                                <td>$180</td>
+                                <td>$160</td>
+                                <td>$220</td>
+                                <td>$340</td>
+                                
                                 </tr>
                                 <tr>
                                 <td>Medium</td>
-                                <td>$100</td>
-                                <td>$110</td>
-                                <td>$120</td>
-                                <td>$150</td>
+                                <td>$140</td>
+                                <td>$180</td>
+                                <td>$230</td>
+                                
                                 </tr>
                                 <tr>
                                 <td>Large</td>
-                                <td>$80</td>
-                                <td>$80</td>
-                                <td>$90</td>
-                                <td>$100</td>
+                                <td>$120</td>
+                                <td>$120</td>
+                                <td>$120</td>
+                              
                                 </tr>
                                 <tr>
                                 <td>X-Large</td>
-                                <td>$70</td>
-                                <td>$70</td>
-                                <td>$90</td>
                                 <td>$100</td>
+                                <td>$100</td>
+                                <td>$100</td>
+                              
                                 </tr>
                             </tbody>
                             </Table>
 
-                            <h3>Styled Braides</h3>
+                            <h3>Cornrow Feed-in Braides</h3>
+                            <Table responsive>
+                            <thead>
+                                <tr>
+                                <th>Number of Braides</th>
+                                <th>Price($)</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+        
+                                <tr>
+                                <td>2-8</td>
+                                <td>80</td>
+                                </tr>
+                                <tr>
+                                <td>9-15</td>
+                                <td>100</td>
+                                </tr>
+                              
+
+                                <tr>
+                                <td>16-19</td>
+                                <td>150</td>
+                                </tr>
+                                
+                            </tbody>
+                            </Table>
+
+                            <h3>Lemondade and Fulani Braides</h3>
                             <Table responsive>
                             <thead>
                                 <tr>
                                 <th>Styles</th>
                                 <th>Price($)</th>
-                                <th>Timing (hours)</th>
                                 </tr>
                             </thead>
+
                             <tbody>
                                 <tr>
-                                <td>Lemondade</td>
-                                <td>100</td>
-                                <td>6</td>
+                                <td>Half up half down (small)</td>
+                                <td>160</td>
                                 </tr>
                                 <tr>
-                                <td>Fulani</td>
-                                <td>110</td>
-                                <td>5-6</td>
+                                <td>Half up half down (medium)</td>
+                                <td>120</td>
+                                
                                 </tr>
                                 <tr>
-                                <td>Feed-in Braids 2-8</td>
-                                <td>80</td>
-                                <td>5</td>
+                                <td>Half up half down (Large)</td>
+                                <td>90</td>
+                                
                                 </tr>
                                 <tr>
-                                <td>Feed-in Braids 9-15</td>
-                                <td>100</td>
-                                <td>6</td>
+                                <td>Pontytail (6)</td>
+                                <td>90</td>
                                 </tr>
+                                
                                 <tr>
-                                <td>Mens Braids</td>
-                                <td>60</td>
-                                <td>2</td>
+                                <td>Ponytail(7-10)</td>
+                                <td>120</td>
                                 </tr>
+
                             </tbody>
                             </Table>
-                          
-                    
 
-              
+                            <h3>Mens Braides </h3>
+                            <Table responsive>
+                            <thead>
+                                <tr>
+                                <th>Styles</th>
+                                <th>Price($)</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                <td>2-3 Braides</td>
+                                <td>50</td>
+                                </tr>
+                                <tr>
+                                <td>4-6 Braides</td>
+                                <td>70</td>
+                                
+                                </tr>
+                                <tr>
+                                <td>7-12</td>
+                                <td>80</td>
+                                
+                                </tr>
+
+                                <tr>
+                                <td>Single braids/ twist (half head) small</td>
+                                <td>70</td>
+                                </tr>
+
+                                <tr>
+                                <td>Single braids/ twist (half head) medium and large</td>
+                                <td>50</td>
+                                </tr>
+                                
+                                <tr>
+                                <td>Single braids/ twist (full head) smalL</td>
+                                <td>100</td>
+                                </tr>
+
+                                <tr>
+                                <td>Single braids/ twist (full head) medium</td>
+                                <td>80</td>
+                                </tr>
+
+                                <tr>
+                                <td>Single braids/ twist (full head) large</td>
+                                <td>60</td>
+                                </tr>
+
+                            </tbody>
+                            </Table>
                         </div>
+
+                        <h1>For any Style question please feel free to DM on Instagram @Slaaydbylaay</h1>
 
                         <div className = "Book-appointment">
                         <h3>Gallery</h3>
