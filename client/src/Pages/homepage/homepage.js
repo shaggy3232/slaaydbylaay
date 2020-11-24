@@ -401,7 +401,7 @@ render(){
                             </Table>
                         </div>
 
-                        <h1>For any Style question please feel free to DM on Instagram @Slaaydbylaay</h1>
+                       
 
                         <div className = "Book-appointment">
                         <h3>Gallery</h3>
